@@ -60,6 +60,7 @@ h3{
 
 p{
     font-family: var(--fuentePrincipal);
+    margin: 0;
 }
 
 img{
@@ -126,5 +127,37 @@ a{
     font-size: 6rem;
     font-weight: 900;
 }
+
+/** Iconos **/
+
+.iconos{
+    padding-top: var(--separacion);
+    
+}
+
+@media (min-width: 768px){
+    .iconos{
+        display: flex;
+        gap: 2rem;
+    }
+}
+
+.bloque-icono{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-icono{
+    text-transform: uppercase;
+    color: var(--colorPrimario);
+    font-weight: 900;
+}
+
+.img-icono{
+    width: 5rem;  
+}
+
+  
 
 
